@@ -31,7 +31,7 @@ public class NBody{
         String filename = scanner.next();
         Planet[] planets = readPlanets(filename);
         double Radius = readRadius(filename);
-        StdDraw.setCanvasSize(800, 800); // 设置窗口大小，可根据需要调整
+        //StdDraw.setCanvasSize(800, 800); // 设置窗口大小，可根据需要调整
         StdDraw.enableDoubleBuffering(); // 开启双缓冲，防止闪烁
         int time = 0;
         //Radius = ;
